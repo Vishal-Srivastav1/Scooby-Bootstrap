@@ -1,0 +1,841 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+ body{
+    overflow-x: hidden;
+ }
+
+@media screen and (min-width: 993px) {
+	.navitem1.dropdown-menu.show {
+		display: none !important;
+	}
+	.navitem1:hover .dropdown-menu {
+		display: block !important;
+	}
+	.navitem1:focus .dropdown-menu {
+		display: none !important;
+	}
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+   justify-content: space-between;
+   background-color: #f3f3f3;
+    color:white;
+}
+.navbar .dropdown-menu{
+    position: relative;
+    overflow: visible;
+    width: 200px;
+   
+}
+
+.navbar li{
+    margin-right:15px;
+  position: relative;
+   
+}
+
+
+.page .fb {
+   translate: 0px 50%;
+    color: #001d23;
+  
+}
+
+.bgimg{
+     /* background-image: url(img/bg/h2-hero-bg.png); */
+     height: 100vh;
+     background-repeat: no-repeat;
+     background: #f4ede6;
+    background-size: cover;
+  
+   
+}
+
+
+.Servcol {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+    
+    padding: 25px;
+}
+
+.Servcol p{
+   margin-top: 10px;
+}
+
+.Servcol .imgicon{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.Services{
+    margin-bottom: 40px;
+    
+}
+
+
+.peticon{
+    margin-top: 25%;
+    
+}
+.vecttext{
+    margin-left: 7%;
+    margin-top: 2%;
+    position:absolute;
+}
+.vect{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.carttext{
+    margin-top: 8%;
+   
+}
+.carttext .xt{
+    font-size:60px;
+    margin-bottom: 80px;
+    
+}
+.heroimg {
+    margin-top: 8rem;
+    margin-left: 4rem;
+    width: 90%;
+    height: 80%;
+}
+.btn1st{
+    width: 18%;
+    margin-left: 5%;
+    background-color:#ff6b55;
+    border-bottom: 2px;;
+    border-right:  2px;
+    border-color: #ef9685;
+    margin-bottom: 5%;
+    padding-top: px;
+    border-radius: 4px;
+  transition: all 2s ease-in-out;
+   color: white;
+}
+
+:hover.btn1st{
+    background-color:black;
+    border: 0em;
+   animation-duration:4ms;
+   transition-duration: 100ms;
+   color: white;
+   border-color: #f4ede6;
+}
+
+.btn2nd{
+    width: 14%;
+    margin-left: 1%;
+    background-color:#001d23;
+    border-bottom: 2px;
+    border-right:  2px;
+    border-color: #25373a;
+    margin-bottom: 5%;
+    padding-top: px;
+    border-radius: 4px;
+    transition: all 2s ease-in-out;
+   height: 50px;
+   color: white;
+}
+
+:hover.btn2nd{
+    background-color:#ff6b55;
+    border: 0em;
+   animation-duration:4ms;
+   transition-duration: 100ms;
+   color: white;
+   border-color: #f4ede6;
+}
+
+.petimages{
+     position: absolute;
+   
+     margin-top: 12%;
+}
+.petimages2{
+    position: absolute;
+   
+    margin-top: 10%;
+}
+
+.pettext{
+    justify-content: center;
+    align-items: center;  
+   
+}
+.pettext h1,h6, p{
+   margin-top: 4%;
+}
+
+.pettext .icoone{
+    margin-top: 10%;
+}
+ 
+.chooseUs1{
+    background-color: #f5f2fc;
+    margin-top: 15%;
+    padding: 1%;
+}
+.chooseUs{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.chooseUs h1{
+    margin-bottom: 4%;
+}
+.chooseUs h4{
+    margin-bottom: 6%;
+    margin-top: 1%;
+}
+.conticons{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #fbfbfb;
+    padding: 4%;
+}
+.multipServ1{
+    padding: 1%;
+    margin-top: 5%;
+}
+.multipServ{
+    margin-top: 2%;
+    padding: 20px;
+    margin-bottom: 45px;
+}
+.servimultiple{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 100px;
+   position: sticky;
+   
+}
+.servimultiple .search2{
+    margin-bottom: 20px;
+}
+
+.servimultiple .search1{
+   width: 40%;
+   translate: 0 150px;
+    
+}
+.servimultiple p{
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.servimultiple .sl-no{
+   margin-left: 65%;
+   
+}
+
+.contact{
+    margin-top: 8%;
+    background-image: url(img/bg/h2-contact-area.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+  padding-bottom: 7%;
+}
+
+.contact h1{
+    margin-top: 15%;
+    margin-bottom: 20%;
+    margin-left: 8%;
+    
+}
+.contact input{
+    outline: none;
+    border: none;
+}
+.contact textarea{
+    outline: none;
+    border: none;
+   
+}
+.contact .accordion{
+    margin-bottom: 20%;
+}
+.custom{
+    margin-top: 8%;
+}
+.custom h1{
+    margin-bottom: 8%;
+}
+.Coustomersay{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #f3f3f3;
+   
+}
+.total-review{
+  margin-left: 40px;
+     
+}
+.total-review .star22{
+    position: absolute;
+    margin-left:40px;
+    margin-top: 4%;
+         
+  }
+  .Coustomersay .google{
+    margin-right: -13%;
+  }
+.Coustomersay .fa-star{
+    color: #ef9685;
+}
+.Coustomersay ul{
+    outline: none;
+    border: none;
+}
+.Sebastian{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.Sebastian p {
+ padding: 5px;
+
+}
+.Sebastian img{
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+     /* team */
+
+.teambg{
+    background-image: url(img/bg/team/h2-team-bg.png);
+    margin-top: 8%; 
+    margin-bottom:0%; 
+    padding: 10%;
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.team {
+    background:white;
+    margin-top: 8%;
+    border-radius: 2%;
+    margin-bottom:0%;
+   
+   
+}
+.cardimg .teamimg{
+    translate: 12px -15px;
+    border-radius: 2%;
+    
+}
+
+.cardimg1 .teamimg1{
+    translate: 12px 16px;
+    border-radius: 2%;
+    
+}
+ .cardimg1{
+    position: absolute;
+    opacity: 0%;
+}
+
+.team:hover .cardimg1{
+    position: sticky;
+    opacity: 100%;
+    transition: all 2s ease-in-out;
+    overflow:hidden;
+    
+}
+.team:hover .cardimg{
+   opacity: 0%;  
+   position: absolute;
+   transition: all 2s ;
+   overflow: hidden;
+}
+.blog {
+    margin-top: 8%;
+    align-items: center;
+    margin-bottom: 0%;
+    justify-content: center;
+    justify-items: center;
+
+}
+.blog .h1{
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.blog .img-fluid{
+    border-radius: 5%;
+    padding: 1%;
+    transition: all 2s ease-in-out;
+}
+
+:hover.img-f{
+    border-radius: 5%;
+    padding: 0%;
+    font-stretch: expanded
+
+}
+.blog2 a {
+    color: #ef9685;
+}
+.blog2 span{
+    color:wheat;
+}
+
+.blog .re{
+    color: #ef9685;
+    border-radius: 50%;
+    padding-left:3%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-right: 0%;
+    border: 1px solid #ff6b55;
+    
+}
+.blog2 :hover a{
+    color: #001d23;
+}
+.blog2 :hover .re{
+    color:white;
+    background-color: #001d23;
+}
+.blog2:hover h4{
+    color: #ff6b55;
+ }
+
+   /* footer */
+   .footer{
+    margin-top: 5%;
+    background-image: url(img/bg/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+   .footer .ro{
+  display: flex;
+  justify-content: space-between;
+   flex-wrap: wrap;
+   translate: 0% -65%;
+    
+   }
+   .footer .tt{
+    position: absolute;
+    margin-left: 15%;
+    translate: 0% -40%;
+   }
+
+   .footer .Keep{
+    translate: 0% 40%;
+   }
+   .footer a{
+    text-decoration:none;
+     color: #253d4e;
+   }
+   .ro h3{
+     color:#ff6b55;
+   }
+   .ro .roicons{
+    position: absolute;
+    margin-top: 2%;
+   translate: -30px;
+   }
+
+/* --------------------Mobile Screen--------------------------------- */
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        overflow-x: hidden;
+        width: 100vh;
+    }
+    
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+  
+    .navbar{
+        position:relative;
+        width: 100%;
+       justify-content: space-between;
+       background-color: #f3f3f3;
+        color:white;
+        overflow-x: hidden;
+    }
+    .navbar ul{
+        overflow: hidden;
+      
+    }
+
+    .itemicon{
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-left:0%;
+    }
+    .navbar li{
+        margin-left:15px;
+      position: sticky;
+       
+    }
+    .page1st{
+        margin-bottom: 0%;
+        margin-top: -5%;
+    }
+    .page .fb {   
+     display: none;
+     }
+     .Services{
+        margin-top: -15%;
+     }
+
+     .bgimg .peticon{
+       padding: 0%; 
+     }
+     .bgimg .peticon .vecttext{
+       padding: 5%; 
+     }
+     .heroimg{
+        display: none;
+     }
+     .btn1st{
+        width: 180px;
+    
+     }
+     .btn2nd{
+        width: 120px;
+     }
+
+     .Services{
+      margin-top: -11%;
+      width: 100%;
+      position: static;
+     }
+     .Services .Servcol4{
+        display: none;
+     }
+
+     .h2-services{
+       padding-bottom: 0%;
+       justify-content: center;
+       align-items: center;
+     }
+    .pettext h6,h5 ,p{
+        margin-top: 8%;
+        overflow: hidden;
+        
+    }
+    /* .h2-services .petimages ,.petimages2 {
+        padding: 10%;
+        margin-left: -60%;
+        width: 500px;
+    } */
+    /* .chooseUs1{
+        margin-top: %;
+        
+       
+    } */
+    .chooseUs1 .chooseUs h1, h3, h4{    
+        margin-bottom: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .chooseUs1 .grid{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0%;
+    }
+    .chooseUs1 .grid .col{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .chooseUs1 .conticons{
+        margin-bottom: 25%;
+    }
+    .chooseUs1 .conticons .col{
+        padding: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .multipServ1 h1{
+        padding-top: 10%;
+    }
+    .servimultiple .arrowic{
+      display: none;
+       
+    }
+    .servimultiple .col{
+       margin-left: 4%;
+       padding: 15px;
+    }
+    .servimultiple .col .card{
+        padding: 15px;
+        position: relative;
+     }
+
+     .contact{
+        margin-top: -15%;
+     }
+    .contact .row{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .contact .col h1{
+        padding-top: 20px;
+    }
+
+    .custom {
+        margin-top: 20%;
+    }
+    .custom h1{
+       
+        margin-bottom:15%;
+    }
+
+    /* --------------------Coustomersay-------------------- */
+    .Coustomersay .row{
+        display: grid;
+        justify-content: space-between;
+        
+    }
+    .Coustomersay .row .col .one{
+     
+       margin-left: -30px;
+       margin-bottom: 20px;
+     
+    }
+    .Coustomersay .row .col .star22{
+       margin-top: 50px;
+     
+    }
+    .custom .Sebastian{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .custom .Sebastian .col{
+        
+        margin-bottom: 20%;
+    }
+
+    /* ---------------------Team------------- */
+    .teambg h1{
+       margin-top: 10%;
+       margin-bottom: 15%;
+    }
+    /* -------team grid---------- */
+    .teambg .row{
+        display: grid;
+        width: 100%;
+    }
+    .teambg .row .col{
+        padding: 5px;
+
+    }
+
+/* ----------------------blog--------------- */
+    .blog{
+        margin-top: 10%;
+        margin-bottom: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+.blog h1{
+    padding: 15px;
+}
+.blog .row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+.blog .row .col{
+    margin-bottom: 30px;
+   
+}
+
+/* -----------------------footer-------------- */
+.footer{
+    margin-bottom: 8%;
+}
+
+.footer .Keep{
+ position: sticky;
+ margin-bottom: 0%;
+ 
+}
+.footer .ro{
+    position:sticky;
+    display: grid;
+    translate: 0 15%;
+    margin-bottom: 30%;
+}
+
+
+
+
+}
+
+/* --------------Tab Screen------------------------- */
+
+@media only screen and (max-width: 867px) {
+   
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+     .page{
+        height: 100%;
+        margin-bottom: 12%;
+     }
+
+    .page .fb{
+        display: none;
+       
+    }
+    .page .bgcolor{
+        background-color: #f4ede6;
+        
+    }
+    .page{
+        padding-top:7%;
+        position: static;
+        
+        
+    }
+    .h2-services .petimages,.petimages2 {
+        padding: 2%;
+        overflow: hidden;
+        margin-left: 40px;
+        margin-top: 0%;
+     }
+     /* ------------ChoseUS-------------------- */
+     .chooseUs1{
+        margin-top: 80%;
+          
+    }
+    .chooseUs1 .grid{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0%;
+    }
+    .chooseUs1 .grid .col{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .servimultiple .arrowic{
+        display: none;
+         
+      }
+      .servimultiple .col{
+        padding: 10px;
+     }
+ 
+/* ---------------Contact--------------- */
+
+     .contact{
+        margin-top: -10%;
+     }
+    .contact .row{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .contact .d-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* -----------------coustomerSay------------- */
+    .Coustomersay .row{
+        display: grid;
+        justify-content: center;  
+        padding: 16px;   
+    }
+    .Coustomersay .row .col .star22{
+        margin-top: 50px;
+      
+     }
+
+     .custom .Sebastian{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .custom .Sebastian .col{
+        margin-bottom: 10%;
+    }
+
+    /* -----------------TeamBg--------------------- */
+    .teambg .row{
+        display: grid;
+       
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .teambg .row .col{
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    /* -----------blog------------------- */
+    .blog{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog .row{
+        display: grid; 
+        
+    }
+    .blog .row .col{
+        margin-bottom: 30px;
+    }
+
+    /* -------------Footer------------------- */
+    .footer{
+        margin-bottom: 0%;
+    }
+    
+    .footer .Keep{
+     position: sticky;
+     margin-bottom: 10%;
+     
+    }
+    .footer .ro{
+        position:sticky;
+        display: flex;
+        justify-content: space-between;
+        translate: 0 15%;
+        margin-bottom: 10%;
+    }
+}
