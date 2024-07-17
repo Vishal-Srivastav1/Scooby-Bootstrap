@@ -463,7 +463,7 @@ a{
 @media only screen and (max-width: 600px) {
 
     body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         width: 100vh;
     }
     
@@ -498,14 +498,16 @@ a{
     }
     .page1st{
         margin-bottom: 0%;
-        margin-top: -5%;
+        margin-top: -10%;
+    }
+    .page1st .bgcolor{
+        padding-bottom: 12%;
+        margin-top: 4%;
     }
     .page .fb {   
      display: none;
      }
-     .Services{
-        margin-top: -15%;
-     }
+    
 
      .bgimg .peticon{
        padding: 0%; 
@@ -525,9 +527,17 @@ a{
      }
 
      .Services{
-      margin-top: -11%;
+        translate: 0% -14% ;
       width: 100%;
-      position: static;
+      position: relative;
+
+     }
+     .Services .row{
+      /* margin-top: -20%; */
+      width: 100%;
+      position: relative;
+      
+
      }
      .Services .Servcol4{
         display: none;
@@ -538,10 +548,18 @@ a{
        justify-content: center;
        align-items: center;
      }
+     .h2-services h1{
+        font-size: 40px;
+     }
     .pettext h6,h5 ,p{
-        margin-top: 8%;
+        margin-top: 5%;
         overflow: hidden;
         
+    }
+    .petimg .petimages, .petimages2 {
+       /* translate: 34% 20%; */
+      
+       display: none;
     }
     /* .h2-services .petimages ,.petimages2 {
         padding: 10%;
@@ -553,8 +571,13 @@ a{
         
        
     } */
-    .chooseUs1 .chooseUs h1, h3, h4{    
+
+    .chooseUs1 h1{
+        font-size: 50px;
         margin-bottom: 10%;
+    }
+    .chooseUs1 .chooseUs h3, h4{    
+        margin-bottom: 5%;
         justify-content: center;
         align-items: center;
     }
@@ -568,32 +591,45 @@ a{
         padding: 20px;
     }
     .chooseUs1 .conticons{
-        margin-bottom: 25%;
+        margin-bottom: 15%;
     }
     .chooseUs1 .conticons .col{
-        padding: 10px;
-        margin-bottom: 10px;
+        padding: 15px;
+        margin-bottom: 0px;
         
+    }
+    .conticons .olinski{
+          display: none;
     }
 
     .multipServ1 h1{
         padding-top: 10%;
+        font-size: 50px;
     }
     .servimultiple .arrowic{
       display: none;
        
     }
     .servimultiple .col{
-       margin-left: 4%;
-       padding: 15px;
+      display: grid;
+      grid-template-columns: auto;
+       padding: 5px;
+       margin-bottom: 0%;
     }
     .servimultiple .col .card{
-        padding: 15px;
+        padding: 45px;
         position: relative;
      }
 
      .contact{
+        /* margin-top: -15%; */
+        padding: 10%;
+     }
+     
+     .contact form{
         margin-top: -15%;
+        padding: 5%;
+
      }
     .contact .row{
         display: grid;
@@ -601,14 +637,21 @@ a{
         
     }
     .contact .col h1{
-        padding-top: 20px;
+        padding-top: 0px;
+        font-size: 60px;
+    }
+    .contact .col .img-fluid{
+        margin-left: 12%;
+        margin-top: 10%;
+      
     }
 
     .custom {
         margin-top: 20%;
+        padding: 5%;
     }
     .custom h1{
-       
+        font-size: 50px;
         margin-bottom:15%;
     }
 
@@ -638,46 +681,67 @@ a{
         
         margin-bottom: 20%;
     }
+    .custom .Sebastian .anHidden{
+         display: none;
+    }
 
     /* ---------------------Team------------- */
     .teambg h1{
-       margin-top: 10%;
-       margin-bottom: 15%;
+       margin-top: 1%;
+       margin-bottom: 10%;
+       font-size: 50px;
     }
     /* -------team grid---------- */
     .teambg .row{
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        
     }
-    .teambg .row .col{
-        padding: 5px;
+    .teambg .team .teamimg{
+       width: 600px ;
+       height: 600px ;
+     
+
+    }
+    .teambg  .anHidden1{
+       display: none;
 
     }
 
 /* ----------------------blog--------------- */
     .blog{
         margin-top: 10%;
-        margin-bottom: 15%;
+        margin-bottom: 0%;
         justify-content: center;
         align-items: center;
     }
+    .blog .img-f{
+        margin-top: 5%;
+        width: 750px;
+        height: 400px;
+       
+    }
 .blog h1{
     padding: 15px;
+    font-size: 40px;
 }
 .blog .row{
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: 15%;
+    /* margin-left: 20%; */
 }
 .blog .row .col{
-    margin-bottom: 30px;
+    margin-bottom: 100%;
    
 }
 
 /* -----------------------footer-------------- */
 .footer{
-    margin-bottom: 8%;
+    /* margin-bottom: 100%; */
+    padding-bottom: 82%;
+    overflow: hidden;
 }
 
 .footer .Keep{
@@ -689,7 +753,7 @@ a{
     position:sticky;
     display: grid;
     translate: 0 15%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
 }
 
 
@@ -698,8 +762,14 @@ a{
 }
 
 /* --------------Tab Screen------------------------- */
+@media only screen and (max-width: 900px) {
+    .petimg .petimages, .petimages2 {
+        /* translate: 34% 20%; */  
+        display: none;
+     }
+}
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 967px) {
    
 
     body{
@@ -710,10 +780,37 @@ a{
         padding: 0%;
         margin: 0%;
     }
-     .page{
-        height: 100%;
-        margin-bottom: 12%;
-     }
+
+    .navbar{
+        position:relative;
+        width: 100%;
+       justify-content: space-between;
+       background-color: #f3f3f3;
+        color:white;
+        overflow-x: hidden;
+    }
+    .navbar ul{
+        overflow: hidden;
+      
+    }
+
+    .itemicon{
+        justify-content:space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-left:0%;
+    }
+    .navbar li{
+        margin-left:15px;
+      position: sticky;
+       
+    }
+
+    
+     .page1st{
+        margin-bottom: 0%;
+            margin-top: -12%;
+    }
 
     .page .fb{
         display: none;
@@ -724,20 +821,37 @@ a{
         
     }
     .page{
-        padding-top:7%;
+        padding-top:8%;
         position: static;
+        margin-bottom: 14%;
         
         
     }
-    .h2-services .petimages,.petimages2 {
+
+    .Services{
+        margin-top: -7%;
+     }
+    /* .h2-services .petimages,.petimages2 {
         padding: 2%;
         overflow: hidden;
         margin-left: 40px;
         margin-top: 0%;
+     } */
+
+     .h2-services{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+     }
+     
+     .petimg .petimages, .petimages2 {
+        /* translate: 34% 20%; */
+       width: 380px;
+       
      }
      /* ------------ChoseUS-------------------- */
      .chooseUs1{
-        margin-top: 80%;
+        margin-top: 7%;
           
     }
     .chooseUs1 .grid{
@@ -749,14 +863,27 @@ a{
         margin-top: 0px;
         padding: 20px;
     }
-    .servimultiple .arrowic{
+
+    .conticons .olinski{
         display: none;
-         
-      }
-      .servimultiple .col{
-        padding: 10px;
-     }
- 
+  }
+  
+  .servimultiple .search1{
+    display: none;
+     
+  }
+  .servimultiple .row{
+    display: grid;
+    grid-template-columns: auto;
+     padding: 10px;
+     margin-bottom: 20%;
+  }
+  .servimultiple .col .card{
+     margin-bottom: 5%;
+      position: relative;
+     
+   }
+
 /* ---------------Contact--------------- */
 
      .contact{
@@ -771,7 +898,18 @@ a{
         display: flex;
         justify-content: space-between;
     }
+    
+    .contact form{
+        margin-top: -15%;
+        padding: 5%;
 
+     }
+
+     .contact .col .img-fluid{
+        margin-left: 15%;
+      
+      
+    }
     /* -----------------coustomerSay------------- */
     .Coustomersay .row{
         display: grid;
@@ -795,24 +933,37 @@ a{
 
     /* -----------------TeamBg--------------------- */
     .teambg .row{
-        display: grid;
-       
+        display: flex;
+       padding: 5px;
         justify-content: center;
         align-items: center;
   
     }
     .teambg .row .col{
-        padding: 10px;
+        /* padding: 10px; */
         width: 100%;
 
     }
 
+    /* .teambg .team .teamimg{
+        width: 400px ;
+        height: 150px ;
+      
+     } */
+
     /* -----------blog------------------- */
     .blog{
+        margin-top: 10%;
+        margin-bottom: 0%;
         justify-content: center;
         align-items: center;
     }
-
+    .blog .img-f{
+        margin-top: 5%;
+        width: 750px;
+        height: 400px;
+       
+    }
     .blog .row{
         display: grid; 
         
